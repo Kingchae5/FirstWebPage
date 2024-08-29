@@ -2921,7 +2921,7 @@
 			-ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			content: '';
-			background-image: url(../../images/bg.jpg);
+			background-image: url(../../images/k2.jpg);
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -3180,3 +3180,18 @@
 			}
 
 		}
+
+		<style>
+		/* 모든 이미지를 동일한 크기로 설정 */
+		.image.fit img {
+			width: 100%; /* 또는 원하는 고정 크기 */
+			height: auto; /* 비율을 유지하여 높이를 자동으로 설정 */
+		}
+	
+		/* 특정한 크기를 설정하고 싶을 때 */
+		.image.fit img {
+			width: 300px;
+			height: 400px;
+		}
+		</style>
+	
